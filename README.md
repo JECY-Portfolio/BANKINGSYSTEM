@@ -1,9 +1,9 @@
-# 🏦 Simple Banking System
+#  Simple Banking System
 
 This is a **C# console application** that simulates a basic banking system.  
 Users can **deposit, withdraw, check balance, and exit** the system.  
 
-## ✨ Features
+##  Features
 ✔️ Get an **initial balance** from the user.  
 ✔️ **Deposit money** into the account.  
 ✔️ **Withdraw money** (with insufficient balance protection).  
@@ -13,7 +13,7 @@ Users can **deposit, withdraw, check balance, and exit** the system.
 
 ---
 
-## 🔍 How It Works
+##  How It Works
 1. **User is asked to enter an initial balance**.  
    - If the input is invalid (e.g., negative number or text), the program keeps asking until a valid number is entered.  
 2. **User selects an option from the menu**:  
@@ -26,5 +26,5 @@ Users can **deposit, withdraw, check balance, and exit** the system.
 
 ---
 
-## 🚀 How to Run the Program
+##  How to Run the Program
 Open the project in Visual Studio or any C# IDE. Compile and run the program.
