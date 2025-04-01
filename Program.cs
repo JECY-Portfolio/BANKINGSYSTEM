@@ -1,4 +1,5 @@
-﻿using System;
+
+using System;
 
 class BankingSystem
 {
@@ -12,6 +13,12 @@ class BankingSystem
             Console.WriteLine("Invalid input. Please enter a POSITIVE number: ");
             Console.Write("Please, enter your initial balance: ");
         }
+        if (b != 0)
+        {
+            Console.WriteLine("Invalid initial balance. Defaulting to 0.");
+            b = 0;
+        }
+
 
         return b;
     }
@@ -32,6 +39,10 @@ class BankingSystem
 
     static void Main()
     {
+        {
+            Console.WriteLine("Hello, welcome to JECY Internation bank.\nHow may I assist you today?");
+        }
+
         decimal balance = GetBalance();
         Console.WriteLine("Your initial balance is: " + balance);
 
@@ -43,7 +54,7 @@ class BankingSystem
 
             if (choice == "4")
             {
-                Console.WriteLine("Goodbye!");
+                Console.WriteLine("Goodbye and thank you for banking with us!");
                 break;
             }
 
