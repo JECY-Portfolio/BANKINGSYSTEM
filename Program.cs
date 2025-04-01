@@ -29,7 +29,7 @@ class BankingSystem
         Console.Write("Please, enter amount: ");
 
         while (!decimal.TryParse(Console.ReadLine(), out amount) || amount <= 0)
-        {
+         {
             Console.WriteLine("Invalid input. Please enter a POSITIVE number: ");
             Console.Write("Please, enter amount: ");
         }
@@ -40,7 +40,7 @@ class BankingSystem
     static void Main()
     {
         {
-            Console.WriteLine("Hello, welcome to JECY Internation bank.\nHow may I assist you today?");
+            Console.WriteLine("HELLO, WELCOME TO JECY INTERNATIONAL BANK.\nHow may I assist you today?\n");
         }
 
         decimal balance = GetBalance();
